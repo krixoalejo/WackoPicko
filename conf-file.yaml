@@ -1,8 +1,8 @@
-namespace: myapp
+namespace: WackoPicko
 output:
   file_path: ./Fluid-Attacks-Results.csv
   format: CSV
-working_dir: .
+working_dir: ./report
 language: EN
 apk:
   include:
