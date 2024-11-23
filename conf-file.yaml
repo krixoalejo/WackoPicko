@@ -8,12 +8,11 @@ apk:
   include:
     - glob(**/*.apk)
 sast:
+  strict: true
   include:
     - .
-  exclude:
-    - glob(**/node_modules/**)
-    - glob(**/test/**)
 sca:
+  strict: true
   include:
     - .
   exclude:
