@@ -10,6 +10,7 @@ jobs:
            with:
              args: skims --strict scan ./conf-file.yaml
          - name: Upload test report as an artifact
+           if: always()
            uses: actions/upload-artifact@v3
            with:
              name: test-report
