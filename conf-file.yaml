@@ -2,7 +2,7 @@ namespace: WackoPicko
 output:
   file_path: ./report/Fluid-Attacks-Results.csv
   format: CSV
-working_dir: ./report
+working_dir: .
 language: EN
 apk:
   include:
