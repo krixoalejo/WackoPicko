@@ -4,15 +4,14 @@ output:
   format: CSV
 working_dir: ./report
 language: EN
+strict: true
 apk:
   include:
     - glob(**/*.apk)
 sast:
-  strict: true
   include:
     - .
 sca:
-  strict: true
   include:
     - .
   exclude:
