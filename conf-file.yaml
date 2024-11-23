@@ -4,10 +4,10 @@ output:
   format: CSV
 working_dir: ./report
 language: EN
-strict: true
 apk:
   include:
     - glob(**/*.apk)
+strict: true
 sast:
   include:
     - .
