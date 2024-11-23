@@ -1,6 +1,6 @@
 namespace: WackoPicko
 output:
-  file_path: ./Fluid-Attacks-Results.csv
+  file_path: ./report/Fluid-Attacks-Results.csv
   format: CSV
 working_dir: ./report
 language: EN
